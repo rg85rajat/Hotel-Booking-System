@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212152;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.button {
+  padding: 15px 15px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:black;
+  border: none;
+  border-radius: 10px;
+  
+}
+
+.button:hover {background-color: #ff9000}
+
+.button:active {
+  background-color: #ff9000;
+}
+h4.thick {
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<script>
+function myFunction() {
+  alert("Your Booking is Successfully Done and please Pay during check-in.");
+}
+</script>
+<div class="main">
+  <center><a href="index.html"><img src="images/logoresized1.png"></a></center>
+<center><h1 style="color: orange;">Knights Inn Resorts And Hotels</h1></center>
+<hr>
+<h2 style="color: #EC9706;">Luxury Double Suits</h2>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/0.jpg" alt="Mountains" style="width:100%">
+      <h3>One King West Hotel and Residence</h3>
+      <p>Located in Fallsview, this hotel is within a 5-minute walk of Fallsview Casino and IMAX Theatre Niagara Falls. Skylon Tower and Scotiabank Convention Centre are also within 10 minutes.</p>
+    <h4 class="thick"> ₹10999/night</h4>
+    
+<button onclick="myFunction()" class="button">Book Now</button> </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/400351_14070117340020109224.jpg" alt="Lights" style="width:100%">
+      <h3>The Fairmont Royal York</h3>
+      <p>Located in Downtown Toronto, this romantic hotel is steps away from The Path, PATH Underground Shopping Mall and Queen Street. Toronto Eaton Centre and Nathan.</p>
+    <h4 class="thick"> ₹15599/night</h4>
+  <button onclick="myFunction()" class="button">Book Now</button>
+  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/140873365.jpg" alt="Nature" style="width:100%">
+      <h3>Knights on the Hills</h3>
+      <p>3 restaurants, an indoor pool and 3 bars/lounges are available at this smoke-free hotel. Additionally, a health club, a coffee shop/café and a spa tub are on-site. Enjoy your stay in your 2nd room. Knights Inn provide best facilities</p>
+    <h4 class="thick"> ₹10999/night</h4>
+  <button onclick="myFunction()" class="button">Book Now</button>
+  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/230770451.jpg" alt="Mountains" style="width:100%">
+      <h3>Vitoria Hotels and Suites</h3>
+      <p>A restaurant, a fitness centre and a bar/lounge are available at this smoke-free hotel. WiFi in public areas is free. Additionally, a coffee shop/café, a sauna and a rooftop terrace are on-site. Knights Inn is best.</p>
+    <h4 class="thick"> ₹1199/night</h4>
+  <button onclick="myFunction()" class="button">Book Now</button>
+  </div>
+  </div>
+<!-- END GRID -->
+</div>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/243966890.jpg" alt="Mountains" style="width:100%">
+      <h3>One King West Hotel and Residence</h3>
+      <p>Located in Financial District, this spa hotel is steps away from The Path, Nathan Phillips Square and Queen Street. Royal Alexandra Theatre and Toronto Eaton Centre are also within 10 minutes.</p>
+<h4 class="thick"> ₹16599/night</h4>
+<button onclick="myFunction()" class="button">Book Now</button>    
+  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/666828838.jpg" alt="Lights" style="width:100%">
+      <h3>The Fairmont Royal York</h3>
+      <p>Along with 2 restaurants, this smoke-free hotel has a full-service spa and an indoor pool. Other amenities include an outdoor pool, a 24-hour fitness centre and a bar/lounge.</p>
+    <h4 class="thick"> ₹13999/night</h4>
+  <button onclick="myFunction()" class="button">Book Now</button>
+  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/xxl_153038565.jpg" alt="Nature" style="width:100%">
+      <h3>Sheraton on the Falls</h3>
+      <p>This family-friendly Toronto hotel is located in the historical district, within a 10-minute walk of Hockey Hall of Fame and Scotiabank Arena. CN Tower and Rogers Centre are also within 15 minutes.Enjoy the stay with THN. Knights Inn is best.</p>
+    <h4 class="thick"> ₹3699/night</h4>
+  <button onclick="myFunction()" class="button">Book Now</button>
+  </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/beauty-of-the-pool.jpg" alt="Mountains" style="width:100%">
+      <h3>Vitoria Hotels and Suites</h3>
+      <p>All 230 rooms feature kitchenettes with fridges and microwaves, plus free WiFi, free wired Internet and LCD TVs with digital channels. Guests will also find pillowtop, sofa beds and separate sitting areas.</p>
+    <h4 class="thick"> ₹12999/night</h4>
+  <button onclick="myFunction()" class="button">Book Now</button>
+  </div>
+  </div>
+<!-- END GRID -->
+</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
